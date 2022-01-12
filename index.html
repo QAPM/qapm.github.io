@@ -31,7 +31,7 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>QAPM 2022</a>
+                <a href="#top" onclick=$('#menu-close').click();>QAPM 2022</a>
             </li>
             <li>
                 <a href="#top" onclick=$("#menu-close").click();>Home</a>
@@ -61,28 +61,27 @@
                 <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
             </li>
             <!--li>
-                <a href="https://www.fernuni-hagen.de/service/impressum.shtml">Impressum</a>
+                <a href="">Impressum</a>
             </li>
              <li>
-                <a href="https://www.fernuni-hagen.de/service/datenschutz.shtml">Datenschutz</a>
+                <a href="">Datenschutz</a>
             </li-->
         </ul>
     </nav>
 
     <!-- Header -->
     <header id="top" class="header" style="height: 30%">
-        <div class="col-lg-12" style="height: 100px; width:97%; background-image: url('img/logo_tfpm.png');background-repeat: no-repeat;background-size: auto 80px; transform:rotate(-20deg); background-position: left top">
-
+        <a href="https://www.tf-pm.org/" target="_blank"><div class="col-lg-12" style="height: 100px; width:97%; background-image: url('img/logo_tfpm.png');background-repeat: no-repeat;background-size: auto 80px; transform:rotate(-20deg); background-position: left top">
+        </div></a>
     </header>
 
     <!-- About -->
     <section id="about" class="about">
 
 
-        </div>
+        
         <div class="container">
             <div class="row">
-
                 <center>
                     <p class="lead text-justify"
                         style="font-family: 'Open Sans Condensed', sans-serif; font-weight: 700; text-transform: uppercase; color: #6b7770; margin: 0 0 0.5em 0; line-height: 1.3;text-align: center">
@@ -214,35 +213,33 @@
 
                         <p class="lead text-justify"
                             style="font:inherit;font-size:18px;color:rgb(100,100,100);margin: 0 0 0;">
-                            TBA
-
-                            <!--Abel Armas Cervantes, University of Melbourne, Australia<br>
-Robin Bergenthum, FernUni Hagen, Germany (co-chair)<br>
-Luca Bernardinello, Università degli studi di Milano-Bicocca, Italy<br>
-Andrea Burattin, Technical University of Denmark, Denmark<br>
-Claudio Di Ciccio, Vienna University of Economics and Business, Austria<br>
-Jochen De Weerdt, KU Leuven, Belgium<br>
-Benoît Depaire, Hasselt University, Belgium<br>
-Jörg Desel, FernUni Hagen, Germany<br>
-Chiara Di Francescomarino, FBK-IRST, Italy<br>
-Dirk Fahland,  TU Eindhoven, The Netherlands (co-chair)<br>
-Stefan Haar, LSV CNRS & ENS de Cachan, France<br>-->
+                            Han van der Aa, University of Mannheim, Germnay<br>
+                            Abel Armas Cervantes, University of Melbourne, Australia<br>
+                            Josep Carmona, Polytechnic University of Catalonia, Germany (co-chair)<br>
+                            <!--Robin Bergenthum, FernUni Hagen, Germany (co-chair)<br-->
+                            <!--Andrea Burattin, Technical University of Denmark, Denmark<br-->
+                            Jochen De Weerdt, KU Leuven, Belgium<br>
+                            Benoît Depaire, Hasselt University, Belgium<br>
+                            <!--Chiara Di Francescomarino, FBK-IRST, Italy<br-->
+                            Dirk Fahland,  Eindhoven University of Technology, The Netherlands (co-chair)<br>
+                            Gert Janssenswillen, Hasselt University, Belgium (co-chair)<br>
+                            Wolfgang Kratsch, Research Center FIM / Fraunhofer FIT, Germany<br>
+                            Massimiliano de Leoni, Uniersity of Padoa, Italy <br>
+                            Henrik Leopold, Kühne Logistics University, Germany <br>
                         </p>
                     </div>
                     <div class="col-lg-6">
                         <p class="lead text-justify"
                             style="font:inherit;font-size:18px;color:rgb(100,100,100);margin: 0 0 0;">
-                            <!--Gabriel Juhás, Slovak University of Technology, Slovak Republic<br>
-Anna Kalenkova, University of Melbourne, Australia (co-chair)<br>
-Sander Leemans, QUT, Australia<br>
-Robert Lorenz, Uni Augsburg, Germany<br>
-Lisa Mannel, RWTH Aachen, Germany<br>
-Marta Pietkiewicz-Koutny, Newcastle University, GB<br>
-Adrian Puerto Aubel, INRIA - Rennes, France<br>
-Andrey Rivkin, Free University of Bozen Bolzano, Italy<br>
-Arik Senderovich, University of Toronto, Canada<br>
-Farbod Taymouri, University of Melbourne, Australia<br>
-Alex Yakovlev, Newcastle University, GB<br>-->
+                            Felix Mannhardt, Eindhoven University of Technology, The Netherlands <br>
+                            Niels Martin, Hasselt Univesristy, Belgium<br>
+                            Jan Mendling, Humboldt-Universit&#228;t zu Berlin, Germany <br>
+                            Artem Polyvyanyy, The University of Melbourne, Australia <br>
+                            Jana-Rebecca Rehse, University of Mannheim, Germany <br>
+                            Arik Senderovich, York University, Canada <br>
+                            Matthias Weidlich, Humboldt-Universit&#228;t zu Berlin, Germany<br>
+                            Jan-Martijn van der Werf, Utrecht University, The Netherlands<br>
+                            Sebastiaan J. van Zelst, Fraunhofer FIT / RWTH Aachen University, Germany (co-chair) <br>
                         </p>
                     </div>
                     <br>
@@ -327,8 +324,8 @@ Alex Yakovlev, Newcastle University, GB<br>-->
                         Contact <a href="mailto:name@example.com">sebastiaan.van.zelst@fit.fraunhofer.de</a> | <a
                             href="mailto:name@example.com">gert.janssenswillen@uhasselt.be</a>
                         <!--&middot;-->
-                        <!--a href="https://www.fernuni-hagen.de/service/impressum.shtml">Impressum</a> &middot;
-                        <a href="https://www.fernuni-hagen.de/service/datenschutz.shtml">Datenschutz</a-->
+                        <!--a href="">Impressum</a> &middot;
+                        <a href="">Datenschutz</a-->
                     </p>
                 </div>
             </div>
